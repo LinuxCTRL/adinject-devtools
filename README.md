@@ -1,3 +1,8 @@
+# adinject-devtools
+
+[![npm version](https://img.shields.io/npm/v/adinject-devtools?style=flat-square&color=CB3837&logo=npm)](https://www.npmjs.com/package/adinject-devtools)
+[![npm downloads](https://img.shields.io/npm/dm/adinject-devtools?style=flat-square&color=blue&logo=npm)](https://www.npmjs.com/package/adinject-devtools)
+[![npm total downloads](https://img.shields.io/npm/dt/adinject-devtools?style=flat-square&color=green&logo=npm)](https://www.npmjs.com/package/adinject-devtools)
 [![Companion For adinject-react](https://img.shields.io/badge/Companion%20For-adinject--react-blue?style=flat-square&logo=npm)](https://www.npmjs.com/package/adinject-react)
 [![GitHub](https://img.shields.io/badge/GitHub-LinuxCTRL%2Fadinject--devtools-181717?style=flat-square&logo=github)](https://github.com/LinuxCTRL/adinject-devtools)
 [![TypeScript](https://img.shields.io/badge/typescript-strict-blue?style=flat-square)](https://www.typescriptlang.org/)
