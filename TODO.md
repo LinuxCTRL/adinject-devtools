@@ -26,12 +26,12 @@ This document tracks upcoming tasks, improvements, and adjustments for `adinject
 
 ---
 
-## 📦 Phase 3: Bundle Optimization & CI Infrastructure (Completed)
+## 📦 Phase 3: Bundle Optimization & Build Validation (Completed)
 
 - [x] **3.1 Bundle Size Audit**
   - Verified clean builds with `tsup` producing tree-shakable CJS & ESM outputs with zero runtime dependencies.
-- [x] **3.2 GitHub Actions CI Setup**
-  - Created `.github/workflows/ci.yml` running `typecheck`, `test`, and `build` on pushes and pull requests across both repositories.
+- [x] **3.2 Local Validation Pipeline**
+  - Configured fast local verification via `bun test` and `bun run typecheck`.
 
 ---
 
