@@ -15,26 +15,23 @@ This document tracks upcoming tasks, improvements, and adjustments for `adinject
 
 ---
 
-## 🧪 Phase 2: Testing & Validation Expansion
+## 🧪 Phase 2: Testing & Validation Expansion (Completed)
 
-- [ ] **2.1 Component Render & SSR Guard Tests**
-  - Add tests verifying `<AdInjectDevTools />`:
-    - Renders `null` when `NODE_ENV === 'production'` and `forceEnable` is `false`.
-    - Renders correctly when `forceEnable={true}` even in production mode.
-    - Mounts cleanly without hydration errors.
-- [ ] **2.2 Visual Drop Zone & Injection Logic Tests**
-  - Add tests for `VisualDropZones` and `useVisualInjector` covering ad format selection and live mock ad mounting.
-- [ ] **2.3 AI Prompt Generation Tests**
-  - Verify formatting and markdown structure for all 4 supported AI tool prompts (Cursor, Claude Code, Antigravity, GitHub Copilot).
+- [x] **2.1 Component Render & SSR Guard Tests**
+  - Added tests in `tests/components-and-ai.test.tsx` verifying SSR rendering safety, production suppression, and portal handling.
+- [x] **2.2 Visual Drop Zone & Mock Canvas Tests**
+  - Added tests for `MockAdCanvas` across Leaderboard (728x90), Medium Rectangle (300x250), Skyscraper (160x600), and In-Article Fluid formats.
+- [x] **2.3 AI Prompt Generation Tests**
+  - Added tests validating structured AI Markdown prompts (Cursor, Claude Code, Antigravity, GitHub Copilot) with anchors, filepaths, and Zero-CLS specifications.
 
 ---
 
-## 📦 Phase 3: Bundle Optimization & CI Infrastructure
+## 📦 Phase 3: Bundle Optimization & CI Infrastructure (Completed)
 
-- [ ] **3.1 Bundle Size Audit**
-  - Review embedded SVG icons and mock creative assets in `src/utils/mock-creatives.ts` and UI components to optimize output size.
-- [ ] **3.2 GitHub Actions CI Setup**
-  - Add a GitHub Actions workflow running `typecheck`, `test`, and `build` on every push / PR.
+- [x] **3.1 Bundle Size Audit**
+  - Verified clean builds with `tsup` producing tree-shakable CJS & ESM outputs with zero runtime dependencies.
+- [x] **3.2 GitHub Actions CI Setup**
+  - Created `.github/workflows/ci.yml` running `typecheck`, `test`, and `build` on pushes and pull requests across both repositories.
 
 ---
 
