@@ -1,4 +1,5 @@
 [![Companion For adinject-react](https://img.shields.io/badge/Companion%20For-adinject--react-blue?style=flat-square&logo=npm)](https://www.npmjs.com/package/adinject-react)
+[![GitHub](https://img.shields.io/badge/GitHub-LinuxCTRL%2Fadinject--devtools-181717?style=flat-square&logo=github)](https://github.com/LinuxCTRL/adinject-devtools)
 [![TypeScript](https://img.shields.io/badge/typescript-strict-blue?style=flat-square)](https://www.typescriptlang.org/)
 [![React 19](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react)](https://react.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js-14--16-black?style=flat-square&logo=next.js)](https://nextjs.org/)

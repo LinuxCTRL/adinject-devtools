@@ -6,7 +6,7 @@
 
 It ships as a single client-side React component (`<AdInjectDevTools />`) that gets mounted once, near the root of the app, inside the existing `<AdInjectProvider>` from `adinject-react`.
 
-Published: npm, `adinject-devtools@1.0.0`, MIT license, author/maintainer `LinuxCTRL`.
+Published: npm, `adinject-devtools@1.0.1`, MIT license, author/maintainer `LinuxCTRL`.
 
 ## Relationship to adinject-react
 
