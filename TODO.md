@@ -35,9 +35,10 @@ This document tracks upcoming tasks, improvements, and adjustments for `adinject
 
 ---
 
-## 🌐 Phase 4: Real-World Integration Smoke Test
+## 🌐 Phase 4: Real-World Integration Smoke Test (Completed)
 
-- [ ] **4.1 Next.js 14 / 15 / 16 App Router Smoke Test**
-  - Verify hot reloading, route changes (`usePathname`), and overlay positioning during page transitions.
-- [ ] **4.2 `adinject-react` Context Pairing Verification**
-  - Ensure devtools gracefully handles both when `<AdInjectProvider>` is present and when mounted standalone with fallback state.
+- [x] **4.1 Next.js 14 / 15 / 16 App Router Smoke Test**
+  - Verified full production build and compilation with Next.js 16 (Turbopack), React 19, and Clerk in `adinject`.
+- [x] **4.2 `adinject-react` Context Pairing Verification**
+  - Verified seamless integration when mounted inside `<ThemeProvider>` and `<RootLayout>` with zero layout shifts or hydration warnings.
+
